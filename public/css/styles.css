@@ -1,0 +1,160 @@
+/* VIDEO DE LA PAGINA DE INICIO */
+
+.bodyintro {
+  padding: 0;
+  margin: 0;
+}
+
+.bodyintro {
+  box-sizing: border-box;
+}
+
+.bodyintro {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #303952;
+  z-index: 1;
+  opacity: 0.50;
+}
+
+.header-content {
+  z-index: 2;
+  position: absolute;
+}
+
+.header-content a {
+  position: relative;
+  left: 13.5em;
+  top: 9em;
+}
+
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background-color: coral;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+/* FIN DE SECCION */
+
+/* ESTILOS PARA EL TEXTO Y EL NAVBAR DE HOME */
+.headerHome {
+  margin-bottom: 5px;
+}
+
+.headerHome div h1 {
+  margin-top: 5px;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 7em;
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.cardPrincipal {
+  height: 45em;
+  width: 97em;
+}
+
+/* FIN DE SECCION */
+
+/*MEDIA QUERYS PARA PAGINA HOME  */
+@media screen and (max-width: 391px) {
+  .cardPrincipal {
+    height: 26em;
+    width: 25em;
+  }
+  .headerHome div h1 {
+    margin-top: 10px;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 413px) {
+  .cardPrincipal {
+    height: 30em;
+    width: 25em;
+  }
+  .headerHome div h1 {
+    margin-top: 10px;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 900px) {
+  .cardPrincipal {
+    height: 33em;
+    width: 52em;
+  }
+  .headerHome div h1 {
+    margin-top: 10px;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.clientes {
+  background-size: cover;
+  background: rgb(247,244,242);
+background: linear-gradient(90deg, rgba(247,244,242,1) 0%, rgba(228,153,14,1) 50%, rgba(255,235,0,1) 100%);
+}
