@@ -1,0 +1,23 @@
+{
+  "name": "planet_bike",
+  "version": "1.0.0",
+  "description": "pagina_planet_bike",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hernan_quiroga",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

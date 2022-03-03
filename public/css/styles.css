@@ -158,3 +158,165 @@
   background: rgb(247,244,242);
 background: linear-gradient(90deg, rgba(247,244,242,1) 0%, rgba(228,153,14,1) 50%, rgba(255,235,0,1) 100%);
 }
+
+div ul .titulocat {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+div ul a {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.asaidecat {
+  display: inline-table;
+}
+.bodyurbana {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:"Alumni Sans", sans-serif; 
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-size: cover;
+  background: rgb(247,244,242);
+
+}
+.grid-container * {
+ 
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+
+}
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 300px 300px auto ;
+grid-template-rows:  40em 100px auto auto;
+grid-template-areas: 
+"navbar navbar navbar"
+"sidebar sidebar sidebar"
+"main main main"
+"footer footer footer";
+
+}
+
+
+.navbarurbana{
+  height: 40em;
+  grid-area: navbar;
+  background-image: url(../images/biciurbana.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+ }
+.navbarmontaña{
+  height: 40em;
+  grid-area: navbar;
+  background-image: url(../images/escenabici2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+ }
+.navbarnosotros{
+  height: 40em;
+  grid-area: navbar;
+  background-image: url(../images/nosotrosgrupociclistas.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+ }
+  
+
+  
+
+.mainurbana {
+  grid-area: main;
+  background-color:white;
+  display: flex;
+  display: inline;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  gap: 20px;
+  
+}
+.sidebarurbana {
+  grid-area: sidebar;
+  background-color:azure;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+
+}
+
+.footerurbana {
+  grid-area: footer;
+  background-color:#333
+  
+  
+}
+.footerurbana .card img {
+  width: 4em;
+}
+.footerurbana .card a {
+  text-decoration: none;
+  font-family:"Alumni Sans", sans-serif; 
+  color:black
+}
+@media  (max-width: 600px) {
+  .bodyurbana{
+    
+    grid-template :
+    "navbar" 200px
+    "sidebar"auto
+    "main"auto
+    "footer" auto;
+    gap: 1em;
+    
+  }
+}
+@media  (max-width: 392px) {
+  .bodyurbana{
+    
+    grid-template :
+    "navbar" 350px
+    "sidebar"auto
+    "main" auto
+    "main" auto
+    "footer" 20em;
+    gap: 1em;
+    
+  }
+  .navbarurbana{
+    height: 16.5em;
+    
+   }
+    
+}
+
+.pages a {
+  font-size: 2em;
+  text-decoration: none;
+  font-family:"Alumni Sans", sans-serif; 
+  color:black;
+}
+
+.asaide{
+  display: flex;
+  flex-direction: row;
+}
+.asaide a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+  border-bottom: 1em ;
+}
+.titulo {
+  font-size: 2em;
+  font-weight: bold;
+}
