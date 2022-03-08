@@ -256,9 +256,13 @@ grid-template-areas:
 
 .footerurbana {
   grid-area: footer;
-  background-color:#333
+  background-color:#333;
   
   
+  
+}
+.footerurbana .card {
+  margin: 1em;
 }
 .footerurbana .card img {
   width: 4em;
@@ -266,7 +270,10 @@ grid-template-areas:
 .footerurbana .card a {
   text-decoration: none;
   font-family:"Alumni Sans", sans-serif; 
-  color:black
+  color:black;
+  text-align: center;
+  
+  
 }
 @media  (max-width: 600px) {
   .bodyurbana{
@@ -320,3 +327,36 @@ grid-template-areas:
   font-size: 2em;
   font-weight: bold;
 }
+.navbarAc {
+  height: 30em;
+  grid-area: navbar;
+  background-image: url(../images/lentescascopersona.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+
+}
+.headerAc div ul li a {
+  font-size: 3em;
+  color: red;
+  font-family:"Alumni Sans", sans-serif; 
+}
+@media  (max-width: 392px) {
+  .cardAc {
+    flex-direction: column;
+    
+  }
+  .cardAc1 {
+    flex-direction: column;
+  }
+
+  .listaAc {
+    flex-direction: column;
+  }
+
+}
+.headernav div ul li a {
+  text-decoration:none;
+  color: orange;
+  
+  }
