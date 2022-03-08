@@ -15,9 +15,7 @@
     "express": "^4.17.3",
     "hbs": "^4.2.0",
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
     "util": "^0.12.4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
