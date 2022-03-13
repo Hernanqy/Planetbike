@@ -1,7 +1,7 @@
 const express = require ("express");
 const path =require("path");
 const hbs = require("hbs");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 //----------------------------------------------------------
 const routeIndex = require ("./routes/index");
@@ -35,7 +35,7 @@ app.use("/urbana", routeUrbana);
 
 
 
-app.listen(PORT,(err)=>{
+app.listen(process.env.PORT,(err)=>{
     err
     ?console.log("servidor no funciona")
     : console.log(`]Servidor corriendo en http://localhost:${PORT}/`);
